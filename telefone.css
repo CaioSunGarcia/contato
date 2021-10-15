@@ -1,0 +1,27 @@
+.telefone{
+    background-color: #111111;
+    width: 200px;
+    height: 225px;
+    text-align: center;
+
+}
+.numero{
+    padding-top: 1rem;
+    color: #EEDD82;
+    font-family: sans-serif;
+}
+
+.icone__telefone{
+    width: 100px;
+    height: 100px;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width:665px){
+    .telefone{
+        width: 166px;
+    }
+    .numero{
+        font-size: 0.8rem;
+    }
+}

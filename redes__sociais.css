@@ -1,0 +1,46 @@
+.redes{
+    background-color: #111111;
+    width: 200px;
+    height: 225px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.redes__txt{
+    padding-top: 1rem;
+    color: #EEDD82;
+    font-family: sans-serif;
+}
+
+.redes__sociais{
+    display: flex;
+    justify-content: space-around;
+}
+
+.facebook{
+    width: 30px;
+    height: 30px;
+    padding-top: 1rem;
+}
+
+.twitter{
+    width: 30px;
+    height: 30px;
+    padding-top: 1rem;
+}
+
+.instagram{
+    width: 30px;
+    height: 30px;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width:665px){
+    .redes{
+        width: 166px;
+    }
+
+    .redes__txt{
+        font-size: 0.8rem;
+    }
+}
