@@ -2,13 +2,16 @@
     display: flex;
     justify-content: center;
     padding: 3rem 0;
-
 }
 .formas__de__contato{
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
-    max-height: 300px;
+}
+.contatos_card{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
 }
 
 @media screen and (max-width:665px){
@@ -17,8 +20,6 @@
     }
 
     .formas__de__contato{
-        flex-direction: column;
         max-width: 100%;
-
     }
 }
